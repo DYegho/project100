@@ -1,0 +1,150 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 12
+2. Variables ...................... 16
+3. Estilos generales .............. 27
+4. Créditos ....................... 37
+-------------------- */
+
+
+/* ----- Fuente ----- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+/* ----- Variables ----- */
+* {
+  --primary-font-family: 'Montserrat', sans-serif;
+  --body-bg-color: #202020;
+  --card-bg-color: #232323;
+  --text-color: #c2c2c2;
+  --fb-bg-color: #456da4;
+  --li-bg-color: #0984c6;
+  --ig-bg-color: #006184;
+  --lh-text: 22px;
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+  font-family: var(--primary-font-family);
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+  line-height: var(--lh-text);
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 160px;
+  border: 3px solid #fff;
+}
+
+
+.card {
+  /* box-shadow: 0 20px 20px 0 #e96464; */
+  /* box-shadow: 0 20px 20px 0 rgb(0, 0, 0); */
+  transition: 0.3s;
+  width: 25%;
+  text-align: center;
+  /* background-color: var(--white-color); */
+  /* border-radius: 30%https://imagedelivery.net/IEMzXmjRvW0g933AN5ejrA/wwwnotionso-image-prod-files-secures3us-west-2amazonawscom-94877e45-c44c-41a9-a4fd-4279270132d2-2333d5e8-8521-48dc-b147-c6b1e75ee187-untitledpng/format=auto,w=1280; */
+  border-color: #db1717;
+
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.cardt {
+  box-shadow: 0 20px 20px 0 #f3f1f1;
+  transition: 0.3s;
+  width: 25%;
+  text-align: center;
+  /* background-color: #3edb17; */
+  border-radius: 15px;
+  border-color: #0f0f0f;
+  margin-inline: 5;
+}
+
+.cardt:hover {
+  box-shadow: 0 8px 16px 0 rgba(34, 68, 219, 0.2);
+}
+
+.card-01 {
+  padding-top: 50px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.card-02 {
+  background-color: #006184;
+  align-items: flex-start;
+}
+
+h5 {
+  text-align: center;
+  text-decoration: var(--text-color);
+}
+
+.footer {
+  background-color: #1F1E1E;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  height: 100px;
+  border-radius: 0 0 10px 10px;
+}
+
+.fa-duotone {
+  align-items: self-end;
+  text-align: left;
+
+}
+
+.social {
+  min-width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social a {
+  text-decoration: none;
+  font-size: 18px;
+  width: 30px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  /* background: #77AAEB; */
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.social .fb{
+  color: var(--fb-bg-color);
+}
+.social .lk{
+  color: var(--li-bg-color);
+}
+
+
+
+.social a:hover {
+  transform: scale(1.2);
+}
